@@ -406,3 +406,25 @@ footer{
   
   .hero-left h1 { font-size: 2.4rem !important; }
 }
+/* ==========================================
+   PROFILE PICTURE CIRCLE FIX
+   ========================================== */
+@media (max-width: 768px) {
+  .hero-right img {
+    width: 240px !important;
+    height: 240px !important;
+    min-width: 240px !important;
+    min-height: 240px !important; /* Prevents flexbox from squishing it */
+    border-radius: 50% !important;
+    object-fit: cover !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-right img {
+    width: 200px !important;
+    height: 200px !important;
+    min-width: 200px !important;
+    min-height: 200px !important;
+  }
+}
