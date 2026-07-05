@@ -84,14 +84,11 @@
     flex-direction: column !important;
     gap: 20px !important;
   }
-
-  /* 5. Services Section (My Expertise) */
-  /* Forces the 3 columns (Web Dev, Graphic Design, Video Editing) into a single column stack */
-  .services-grid {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    gap: 20px !important;
-  }
+/* 5. Services Section (My Expertise) */
+.services-container {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 20px !important;
 }
 
 /* Extra optimization for extra small screens (Phones under 480px wide) */
